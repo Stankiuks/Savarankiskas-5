@@ -1,0 +1,20 @@
+body{
+    background-color: #4CA368;
+}
+.header{
+    text-align: left ;
+    possition: absolute;
+    font-size: 30px;
+    font-family: "Laksaman";
+    font-weight: 700;
+    color: rgb(114, 115, 117);
+}
+.header_box {
+    width: auto;
+    height: 100px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 1px #8e9191;
+    padding: 1px;
+}
+
