@@ -1,26 +1,38 @@
 body{
     background-color: #4CA368;
 }
-.header{
-    font-size: 30px;
-    font-family: "Laksaman";
-    font-weight: 700;
-    color: rgb(114, 115, 117);
-
-}
-.header_box {
-    width: auto;
-    height: 100px;
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
     background-color: #FFFFFF;
-    box-sizing: border-box;
-    box-shadow: 1px 5px 1px #8e9191;
-    padding: 1px;
 }
-.meniu{
-font-size: 12px;
-    font-family: "Abyssinica SIL";
+li {
+    float: right;
 }
-.meniu_list{
-    display: inline;
+li a{
+    display: inline-block;
+    color: black;
+    position: relative;
+    right: 200px;
+    top: 5px;
+    padding: 14px;
+    text-decoration: none;
+    font-family: "DejaVu Sans Light";
+    font-size: 10px;
+    font-weight: bold;
 }
-
+.header{
+    display: inline-block;
+    color: #636666;
+    position: relative;
+    left: 150px;
+    font-weight: bold;
+font-family: fantasy;
+}
+.button{
+    position: relative;
+    left: 1100px;
+    bottom: 40px;
+}
