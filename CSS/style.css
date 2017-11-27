@@ -36,3 +36,20 @@ font-family: fantasy;
     left: 1100px;
     bottom: 40px;
 }
+.tekstas_H{
+    font-family: Symbola;
+    font-size: 20px;
+    text-align: center;
+}
+.tekstas{
+font-family: Symbola ;
+    font-size: 13px;
+    text-align: center;
+}
+.pc{
+    position: relative;
+    left: 390px;
+}
+.newsletter{
+
+}
