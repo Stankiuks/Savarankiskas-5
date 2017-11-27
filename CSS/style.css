@@ -1,6 +1,4 @@
-body{
-    background-color: #4CA368;
-}
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -51,5 +49,21 @@ font-family: Symbola ;
     left: 390px;
 }
 .newsletter{
-
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #37804E;
+}
+.toppart{
+    background-color: #4CA368;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    height 75%;
+}
+.bottompart{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    height 25%;
 }
