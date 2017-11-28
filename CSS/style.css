@@ -48,8 +48,34 @@ img{
     margin: auto;
     max-width: 500px;
 }
-.newsletter{
-    background-color: #FFFFFF;
+input[type=email]{
     border-style: solid;
+    border-width: 2px;
     border-color: #37804E;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.email_button{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #37804E;
+    background-color:#37804E;
+    font-family: "DejaVu Sans Light";
+    font-size: 14px;
+    border-radius: 20px;
+    position: relative;
+    width: 75px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    left: 1039px;
+    bottom: 21px;
+    }
+.agreement{
+    font-family: "DejaVu Sans Light";
+    font-size: 14px;
+    color: white;
+    text-align: center;
 }
