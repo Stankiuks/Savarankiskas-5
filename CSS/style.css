@@ -1,9 +1,9 @@
-
+body {
+    background-color: #4DA269;
+}
 ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
+     overflow: hidden;
     background-color: #FFFFFF;
 }
 li {
@@ -27,43 +27,29 @@ li a{
     position: relative;
     left: 150px;
     font-weight: bold;
-font-family: fantasy;
+    font-family: fantasy;
 }
 .button{
     position: relative;
-    left: 1100px;
-    bottom: 40px;
+    bottom: 10px;
 }
-.tekstas_H{
+.text_H{
     font-family: Symbola;
     font-size: 20px;
     text-align: center;
 }
-.tekstas{
+.text{
 font-family: Symbola ;
     font-size: 13px;
     text-align: center;
 }
-.pc{
-    position: relative;
-    left: 390px;
+img{
+    display: block;
+    margin: auto;
+    max-width: 500px;
 }
 .newsletter{
     background-color: #FFFFFF;
     border-style: solid;
     border-color: #37804E;
-}
-.toppart{
-    background-color: #4CA368;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    height 75%;
-}
-.bottompart{
-    background-color: white;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    height 25%;
 }
