@@ -28,10 +28,6 @@ li a{
     font-family: fantasy;
     font-size: 20px;
 }
-.button{
-    position: relative;
-    bottom: 10px;
-}
 .text_H{
     font-family: Symbola;
     font-size: 20px;
@@ -58,14 +54,11 @@ img{
     background-color: white;
     box-sizing: border-box;
     }
-.comunity{
-    font-family: Symbola;
-    text-align: center;
-}
 .box1{
     font-family: Symbola;
     text-align: center;
     color: #4DA269;
+    padding: 10px;
 }
 .box2{
     font-family: Symbola;
@@ -73,9 +66,11 @@ img{
     padding-right: 80px;
 }
 .signupbox{
-    border-style: outset;
+    border-style: none;
+    box-shadow: 0px 0px 15px #888888;
     position: relative;
     width: 400px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -100,4 +95,31 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.input{
+    border-style: solid;
+    border-color: #026b07;
+    border-width: 1px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.button{
+    border-style: solid;
+    border-color: #026b07;
+    border-width: 1px;
+    background-color: #026b07;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size:14px;
+}
+.signicon{
+    color: #026b07;
+
+}
+.arrow{
+    color: #d9d9db;
+    display: flex;
+    justify-content: center;
 }
