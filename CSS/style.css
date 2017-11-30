@@ -49,6 +49,7 @@ li a{
     justify-content: center;
     font-family: DejaVu Sans Light;
     font-size: 20px;
+    margin-bottom: 50px;
 }
 .text{
     font-family: DejaVu Sans Light;
@@ -78,10 +79,16 @@ img{
     color: #4DA269;
     padding: 10px;
 }
-.box2{
+.box2 {
     font-family: DejaVu Sans Light;
-    text-align: center;
+    text-align: right;
     padding-right: 80px;
+}
+.signicon{
+    color: #026b07;
+    position: relative;
+    margin-left: 20px;
+    bottom: 90px;
 }
 .signupbox{
     border-style: none;
@@ -121,17 +128,21 @@ img{
     border-bottom-right-radius: 20px;
     font-size:14px;
 }
-.signicon{
-    color: #026b07;
-}
 .texticons{
     list-style-type: none;
     display: inline-flex;
+    position: absolute;
+    left: 30px;
 }
 .x{
     position: relative;
-    left: 330px;
-    padding: 20px;
+    left: 350px;
+    padding: 10px;
+}
+.y{
+    padding: 10px;
+    position: relative;
+    margin-left: 10px;
 }
 .icons {
     position: relative;
@@ -139,9 +150,11 @@ img{
     border-width: 1px;
     border-color: #026b07;
     border-radius: 60px;
-    left: 430px;
+    left: 360px;
     padding: 20px;
     color: #026b07;
+    margin: 40px;
+    top: 20px;
 }
 .fill{
     background-color: #026b07;
