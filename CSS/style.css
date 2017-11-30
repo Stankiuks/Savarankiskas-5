@@ -123,10 +123,27 @@ img{
 }
 .signicon{
     color: #026b07;
-
 }
-.arrow{
-    color: #d9d9db;
-    display: flex;
-    justify-content: center;
+.texticons{
+    list-style-type: none;
+    display: inline-flex;
+}
+.x{
+    position: relative;
+    left: 330px;
+    padding: 20px;
+}
+.icons {
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #026b07;
+    border-radius: 60px;
+    left: 430px;
+    padding: 20px;
+    color: #026b07;
+}
+.fill{
+    background-color: #026b07;
+    color: white;
 }
