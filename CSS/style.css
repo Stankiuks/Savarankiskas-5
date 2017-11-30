@@ -46,7 +46,7 @@ li a{
 }
 .text_H{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     font-family: DejaVu Sans Light;
     font-size: 20px;
     margin-bottom: 10px;
