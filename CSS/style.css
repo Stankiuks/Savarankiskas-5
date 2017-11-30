@@ -46,10 +46,16 @@ li a{
 }
 .text_H{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     font-family: DejaVu Sans Light;
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+.text_comunity{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: DejaVu Sans Light;
 }
 .text{
     font-family: DejaVu Sans Light;
